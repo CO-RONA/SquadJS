@@ -1,6 +1,6 @@
 import DiscordBasePlugin from './discord-base-plugin.js';
 
-export default class TeamSwitch extends DiscordBasePlugin {
+export default class TeamSwitch extends BasePlugin {
   static get description() {
     return (
       'The <code>TeamSwitch</code>  '
@@ -13,7 +13,6 @@ export default class TeamSwitch extends DiscordBasePlugin {
 
   static get optionsSpecification() {
     return {
-      ...DiscordBasePlugin.optionsSpecification,
       command: {
         required: true,
         description: 'The ID of the channel to log admin broadcasts to.',

@@ -90,6 +90,11 @@
       "color": 16761867
     },
     {
+      "plugin": "TeamSwitch",
+      "enabled": true,
+      "command": "!degis"
+    },
+    {
       "plugin": "DiscordAdminRequest",
       "enabled": true,
       "discordClient": "discord",

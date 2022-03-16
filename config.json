@@ -91,6 +91,7 @@
     },
     {
       "plugin": "TeamSwitch",
+      "discordClient": "discord",
       "enabled": true,
       "command": "!degis"
     },

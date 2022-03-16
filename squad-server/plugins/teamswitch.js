@@ -1,4 +1,4 @@
-import DiscordBasePlugin from './discord-base-plugin.js';
+import BasePlugin from './base-plugin.js';
 
 export default class TeamSwitch extends BasePlugin {
   static get description() {
